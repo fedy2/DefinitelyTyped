@@ -39,6 +39,7 @@ export interface APIGatewayEventRequestContextWithAuthorizer<TAuthorizerContext>
     identity: APIGatewayEventIdentity;
     messageDirection?: string;
     messageId?: string | null;
+    operationName?: string;
     path: string;
     stage: string;
     requestId: string;
